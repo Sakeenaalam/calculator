@@ -1,92 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator Web App README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        h2 {
-            margin-top: 30px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            overflow-x: auto;
-        }
-        code {
-            font-family: monospace;
-        }
-    </style>
-</head>
-<body>
-    <h1>Calculator Web App README</h1>
-    <p>This is a simple calculator web application developed using HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+# Simple Arithmetic Calculator Web Application
 
-    <h2>Features</h2>
-    <ul>
-        <li>Responsive design: The calculator is designed to work well on both desktop and mobile devices.</li>
-        <li>Basic arithmetic operations: Addition, subtraction, multiplication, and division.</li>
-        <li>Clear button: Allows users to clear the input field.</li>
-        <li>Error handling: Displays error messages for invalid input or division by zero.</li>
-    </ul>
+Welcome to our basic yet powerful calculator built using HTML, CSS, and JavaScript. This calculator aims to offer a user-friendly interface and intuitive functionality for performing essential mathematical computations.
 
-    <h2>Technologies Used</h2>
-    <ul>
-        <li>HTML: Markup language used for structuring the web page.</li>
-        <li>CSS: Styling language used for designing the user interface.</li>
-        <li>JavaScript: Programming language used for implementing calculator functionality.</li>
-    </ul>
+## Key Features
 
-    <h2>Usage</h2>
-    <ol>
-        <li>Clone the repository to your local machine:</li>
-        <pre><code>git clone https://github.com/yourusername/calculator-web-app.git</code></pre>
+- **Basic Mathematical Operations**: The calculator supports four fundamental arithmetic functions: addition (+), subtraction (-), multiplication (*), and division (/)
+- **Clear Button**: A dedicated clear button allows users to erase all input values and start over from scratch
+- **Responsive Design**: Our calculator adapts seamlessly across different devices and screen resolutions
+- **Accessible Interface**: We strive to ensure that everyone can use our calculator comfortably regardless of their physical abilities
 
-        <li>Navigate to the project directory:</li>
-        <pre><code>cd calculator-web-app</code></pre>
+## Technologies Used
 
-        <li>Open the <code>index.html</code> file in your web browser.</li>
+- **HTML** - For structuring content and defining semantic elements
+- **CSS** - For styling the calculator and ensuring responsiveness
+- **JavaScript** - For implementing the calculator logic and event handling
 
-        <li>Start performing calculations using the calculator interface.</li>
-    </ol>
+## Getting Started
 
-    <h2>Development</h2>
-    <p>If you want to contribute to the development of this calculator web app, you can follow these steps:</p>
-    <ol>
-        <li>Fork the repository to your GitHub account.</li>
-        <li>Clone your forked repository to your local machine:</li>
-        <pre><code>git clone https://github.com/yourusername/calculator-web-app.git</code></pre>
+To begin using our calculator, follow these steps:
 
-        <li>Create a new branch for your feature or bug fix:</li>
-        <pre><code>git checkout -b feature/your-feature-name</code></pre>
+1. Clone the repository to your local machine.
+2. Navigate to the root directory containing the `index.html` file.
+3. Open the `index.html` file in your preferred web browser.
 
-        <li>Make your changes and test them locally.</li>
+## Usage Instructions
 
-        <li>Commit your changes:</li>
-        <pre><code>git commit -am "Add your commit message here"</code></pre>
+Our calculator follows standard conventions used in most digital calculators. Users may enter numbers and perform operations as they would on a traditional handheld device.
 
-        <li>Push your changes to your forked repository:</li>
-        <pre><code>git push origin feature/your-feature-name</code></pre>
+- Pressing digits will append them to the current number being entered
+- Using operators (+, -, *, /, %) will insert them into the expression being calculated
+- Hitting the equal sign (=) will compute the result based on the provided inputs
+- Clicking the "C" button will remove all input values and return the calculator to its initial state
 
-        <li>Create a pull request from your forked repository on GitHub.</li>
-    </ol>
+## Known Limitations
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+While we have made every effort to create a reliable and functional calculator, there are some limitations worth noting:
 
-    <h2>Acknowledgments</h2>
-    <ul>
-        <li>Inspired by various online tutorials and resources.</li>
-        <li>Special thanks to the contributors for their valuable feedback and suggestions.</li>
-    </ul>
-</body>
-</html>
+- Scientific notation is also unavailable
+- Advanced mathematical features such as trigonometric functions, logarithms, etc., are absent
+
+We welcome contributions aimed at addressing these shortcomings and improving the overall experience of our calculator.
+
+## Contribution Guidelines
+
+Contributors are encouraged to submit pull requests and open issues related to bug fixes, feature enhancements, or general improvements. Please review our contribution guidelines before making changes to the source code.
+
+Thank you for considering our calculator, and we hope you find it useful!
+
+
+
+
