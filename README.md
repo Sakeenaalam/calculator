@@ -4,7 +4,7 @@ Welcome to our basic yet powerful calculator built using HTML, CSS, and JavaScri
 
 ## Key Features
 
-- **Basic Mathematical Operations**: The calculator supports four fundamental arithmetic functions: addition (+), subtraction (-), multiplication (*), and division (/)
+- **Basic Mathematical Operations**: The calculator supports five fundamental arithmetic functions: addition (+), subtraction (-), multiplication (*), division (/), and percentage (%)
 - **Clear Button**: A dedicated clear button allows users to erase all input values and start over from scratch
 - **Responsive Design**: Our calculator adapts seamlessly across different devices and screen resolutions
 - **Accessible Interface**: We strive to ensure that everyone can use our calculator comfortably regardless of their physical abilities
